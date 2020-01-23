@@ -26,10 +26,10 @@ for i in bad_chars:
     event3 = event3.replace(i, '')
     event4 = event4.replace(i, '')
 
-output_video_path1 = '/home/medina/PycharmProjects/untitled/crop1.mp4'
-output_video_path2 = '/home/medina/PycharmProjects/untitled/crop2.mp4'
-output_video_path3 = '/home/medina/PycharmProjects/untitled/crop3.mp4'
-output_video_path4 = '/home/medina/PycharmProjects/untitled/crop4.mp4'
+output_video_path1 = '/home/XX/PycharmProjects/untitled/crop1.mp4'
+output_video_path2 = '/home/XX/PycharmProjects/untitled/crop2.mp4'
+output_video_path3 = '/home/XX/PycharmProjects/untitled/crop3.mp4'
+output_video_path4 = '/home/XX/PycharmProjects/untitled/crop4.mp4'
 
 cap = cv2.VideoCapture('crop4.mp4')
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH) + 0.5)
@@ -133,7 +133,7 @@ print(event4_time4[0])
 #read the video and crop it
 
 
-my_clip = VideoFileClip('/home/medina/PycharmProjects/untitled/USA_Turkey.mp4')
+my_clip = VideoFileClip('/home/XX/PycharmProjects/untitled/USA_Turkey.mp4')
 new1 = my_clip.subclip(event1_time1[0], event1_time1[0]+4)
 new1.write_videofile(output_video_path1, audio_codec='aac')
 new1.close()

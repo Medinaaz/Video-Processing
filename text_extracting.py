@@ -47,14 +47,14 @@ event4_time4[0]=int((event4_time4[0])/1000)
 print(event4_time4[0])
 
 #read the video and crop it
-output_video_path1 = '/home/medina/PycharmProjects/untitled/crop1.mp4'
-output_video_path2 = '/home/medina/PycharmProjects/untitled/crop2.mp4'
-output_video_path3 = '/home/medina/PycharmProjects/untitled/crop3.mp4'
-output_video_path4 = '/home/medina/PycharmProjects/untitled/crop4.mp4'
+output_video_path1 = '/home/XX/PycharmProjects/untitled/crop1.mp4'
+output_video_path2 = '/home/XX/PycharmProjects/untitled/crop2.mp4'
+output_video_path3 = '/home/XX/PycharmProjects/untitled/crop3.mp4'
+output_video_path4 = '/home/XX/PycharmProjects/untitled/crop4.mp4'
 
 
 
-my_clip = VideoFileClip('/home/medina/PycharmProjects/untitled/USA_Turkey.mp4')
+my_clip = VideoFileClip('/home/XX/PycharmProjects/untitled/USA_Turkey.mp4')
 new1 = my_clip.subclip(event1_time[0], event1_time[0]+4)
 new1.write_videofile(output_video_path1, audio_codec='aac')
 new1.close()

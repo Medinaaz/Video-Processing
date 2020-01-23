@@ -1,0 +1,5 @@
+{"events":[["rebound","player","Turkey","Ilyasova","22000"],
+["score","player","USA","Turner","52000"],
+["score","player","USA","Tatum","114000"]],
+["foul","player","Turkey","Erden","86000"] "guestTeam":"USA","homeTeam":"Turkey"}
+
